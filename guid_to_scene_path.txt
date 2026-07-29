@@ -1,0 +1,2 @@
+9PuzTgJ89XkgFGfBZRsBVHMaDzHF1iLswWfG2wjeJMMb|res:///addons/2026_01_03_gdp_input_to_primitive/scene/guid/demo_2d_listen_to_nfc_bar_code/demo_2d_listen_to_nfc_bar_code.tscn
+CEmsTKbf5V5KU3eMmwLqZN4meMdgZxPvyJuhRsohi66h|res:///addons/2026_01_03_gdp_input_to_primitive/scene/guid/demo_2d_listen_to_keyboard_input/demo_listen_keyboard_input.tscn
