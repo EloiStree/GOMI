@@ -1,0 +1,30 @@
+[submodule "addons/2026_01_03_gdp_input_to_primitive"]
+	path = addons/2026_01_03_gdp_input_to_primitive
+	url = https://github.com/EloiStree/2026_01_03_gdp_input_to_primitive.git
+[submodule "addons/2026_01_18_gdp_nes_controller_udp"]
+	path = addons/2026_01_18_gdp_nes_controller_udp
+	url = https://github.com/EloiStree/2026_01_18_gdp_nes_controller_udp.git
+[submodule "addons/2026_07_30_gdp_boolean_register"]
+	path = addons/2026_07_30_gdp_boolean_register
+	url = https://github.com/EloiStree/2026_07_30_gdp_boolean_register.git
+[submodule "addons/2025_10_27_gdp_udp_in_out_gate"]
+	path = addons/2025_10_27_gdp_udp_in_out_gate
+	url = https://github.com/EloiStree/2025_10_27_gdp_udp_in_out_gate
+[submodule "addons/2025_10_28_gdp_trusted_websocket"]
+	path = addons/2025_10_28_gdp_trusted_websocket
+	url = https://github.com/EloiStree/2025_10_28_gdp_trusted_websocket.git
+[submodule "addons/2026_06_29_gdp_text_byte_in_out_layer_ws_rsa"]
+	path = addons/2026_06_29_gdp_text_byte_in_out_layer_ws_rsa
+	url = https://github.com/EloiStree/2026_06_29_gdp_text_byte_in_out_layer_ws_rsa.git
+[submodule "addons/2026_07_08_gdp_mqtt_basic"]
+	path = addons/2026_07_08_gdp_mqtt_basic
+	url = https://github.com/EloiStree/2026_07_08_gdp_mqtt_basic.git
+[submodule "addons/2026_04_27_gdp_oled_128x64"]
+	path = addons/2026_04_27_gdp_oled_128x64
+	url = https://github.com/EloiStree/2026_04_27_gdp_oled_128x64.git
+[submodule "addons/2026_07_29_gdp_gomi"]
+	path = addons/2026_07_29_gdp_gomi
+	url = https://github.com/EloiStree/2026_07_29_gdp_gomi.git
+[submodule "addons/2026_07_31_gdp_load_scene_by_guid"]
+	path = addons/2026_07_31_gdp_load_scene_by_guid
+	url = https://github.com/EloiStree/2026_07_31_gdp_load_scene_by_guid.git
