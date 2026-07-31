@@ -28,3 +28,6 @@
 [submodule "addons/2026_07_31_gdp_load_scene_by_guid"]
 	path = addons/2026_07_31_gdp_load_scene_by_guid
 	url = https://github.com/EloiStree/2026_07_31_gdp_load_scene_by_guid.git
+[submodule "addons/2026_07_29_gdp_display_git_module_info"]
+	path = addons/2026_07_29_gdp_display_git_module_info
+	url = https://github.com/EloiStree/2026_07_29_gdp_display_git_module_info.git
