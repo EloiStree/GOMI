@@ -31,3 +31,12 @@
 [submodule "addons/2026_07_29_gdp_display_git_module_info"]
 	path = addons/2026_07_29_gdp_display_git_module_info
 	url = https://github.com/EloiStree/2026_07_29_gdp_display_git_module_info.git
+[submodule "addons/2025_09_12_gdp_generate_sign_rsa"]
+	path = addons/2025_09_12_gdp_generate_sign_rsa
+	url = https://github.com/EloiStree/2025_09_12_gdp_generate_sign_rsa.git
+[submodule "addons/2026_07_13_gdp_github_login_device"]
+	path = addons/2026_07_13_gdp_github_login_device
+	url = https://github.com/EloiStree/2026_07_13_gdp_github_login_device.git
+[submodule "addons/2026_06_29_gdp_text_byte_in_out_layer"]
+	path = addons/2026_06_29_gdp_text_byte_in_out_layer
+	url = https://github.com/EloiStree/2026_06_29_gdp_text_byte_in_out_layer.git
