@@ -40,3 +40,6 @@
 [submodule "addons/2026_06_29_gdp_text_byte_in_out_layer"]
 	path = addons/2026_06_29_gdp_text_byte_in_out_layer
 	url = https://github.com/EloiStree/2026_06_29_gdp_text_byte_in_out_layer.git
+[submodule "addons/2026_08_01_gdp_s2w_parser"]
+	path = addons/2026_08_01_gdp_s2w_parser
+	url = https://github.com/EloiStree/2026_08_01_gdp_s2w_parser.git
