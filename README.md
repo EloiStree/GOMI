@@ -1,5 +1,7 @@
 ```
 git clone --recursive https://github.com/EloiStree/GOMI.git
+cd GOMI
+git submodule foreach 'git switch main'
 ```
 
 # GOMI
