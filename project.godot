@@ -12,11 +12,11 @@ config_version=5
 
 config/name="GOMI"
 config/description="Godot Open Macro Input"
-run/main_scene="uid://bbl3om5tq4qyi"
+run/main_scene="uid://bibwipwfhymmj"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 boot_splash/image="uid://b23vv6snlv3hx"
 config/icon="uid://b23vv6snlv3hx"
-boot_splash/minimum_display_time=3000
+boot_splash/minimum_display_time=1000
 
 [display]
 
