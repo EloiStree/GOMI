@@ -43,3 +43,18 @@
 [submodule "addons/2026_08_01_gdp_s2w_parser"]
 	path = addons/2026_08_01_gdp_s2w_parser
 	url = https://github.com/EloiStree/2026_08_01_gdp_s2w_parser.git
+[submodule "addons/2026_08_05_gdp_http_n8n"]
+	path = addons/2026_08_05_gdp_http_n8n
+	url = https://github.com/EloiStree/2026_08_05_gdp_http_n8n.git
+[submodule "addons/2026_08_08_gdp_input_hardware_class"]
+	path = addons/2026_08_08_gdp_input_hardware_class
+	url = https://github.com/EloiStree/2026_08_08_gdp_input_hardware_class.git
+[submodule "addons/2026_08_08_gdp_bool_grid_in_out_event"]
+	path = addons/2026_08_08_gdp_bool_grid_in_out_event
+	url = https://github.com/EloiStree/2026_08_08_gdp_bool_grid_in_out_event.git
+[submodule "2026_08_09_gdp_text_interpeter_sc_cmd"]
+	path = 2026_08_09_gdp_text_interpeter_sc_cmd
+	url = https://github.com/EloiStree/2026_08_09_gdp_text_interpeter_sc_cmd
+[submodule "addons/2026_08_09_gdp_text_interpeter_sc_cmd"]
+	path = addons/2026_08_09_gdp_text_interpeter_sc_cmd
+	url = https://github.com/EloiStree/2026_08_09_gdp_text_interpeter_sc_cmd
