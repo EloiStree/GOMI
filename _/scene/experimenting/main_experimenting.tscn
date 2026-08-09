@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://br71i0j4j8f4b"]
+
+[ext_resource type="Script" uid="uid://d3wbcnhud6bjx" path="res://addons/2026_01_03_gdp_input_to_primitive/scene/guid/demo_2d_listen_to_midi/script/input_listen_to_midi.gd" id="1_lwx2n"]
+[ext_resource type="Script" uid="uid://c8ax4fx537jk0" path="res://addons/2026_08_08_gdp_input_hardware_class/hardware/sinco_pad_16/scene/guid/demo_2d_listen_to_midi_to_pinco_hardware/script/in_hardware_default_node_sinco_pad_16.gd" id="2_wamb2"]
+
+[node name="MainExperimenting" type="Node3D" unique_id=402824935]
+
+[node name="InputListenToMidi" type="Node" parent="." unique_id=1996594484]
+script = ExtResource("1_lwx2n")
+metadata/_custom_type_script = "uid://d3wbcnhud6bjx"
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=829366430]
+
+[node name="HBoxContainer" type="HBoxContainer" parent="CanvasLayer" unique_id=691522089]
+offset_right = 220.0
+offset_bottom = 142.0
+
+[node name="InHardwareDefaultNodeSincoPad16" type="Node" parent="CanvasLayer/HBoxContainer" unique_id=90775982]
+script = ExtResource("2_wamb2")
+metadata/_custom_type_script = "uid://c8ax4fx537jk0"
+
+[node name="Label SINCO as 01" type="Label" parent="CanvasLayer/HBoxContainer" unique_id=1626945927]
+layout_mode = 2
+
+[node name="Label SINCO as 127" type="Label" parent="CanvasLayer/HBoxContainer" unique_id=2091708534]
+layout_mode = 2
+
+[connection signal="on_any_midi_in_note_changed" from="InputListenToMidi" to="CanvasLayer/HBoxContainer/InHardwareDefaultNodeSincoPad16" method="push_and_filter"]
+[connection signal="on_buttons_debug_as_127_string_updated" from="CanvasLayer/HBoxContainer/InHardwareDefaultNodeSincoPad16" to="CanvasLayer/HBoxContainer/Label SINCO as 127" method="set_text"]
+[connection signal="on_buttons_debug_as_binary_string_updated" from="CanvasLayer/HBoxContainer/InHardwareDefaultNodeSincoPad16" to="CanvasLayer/HBoxContainer/Label SINCO as 01" method="set_text"]
