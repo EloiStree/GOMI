@@ -58,3 +58,9 @@
 [submodule "addons/2026_08_09_gdp_text_interpeter_sc_cmd"]
 	path = addons/2026_08_09_gdp_text_interpeter_sc_cmd
 	url = https://github.com/EloiStree/2026_08_09_gdp_text_interpeter_sc_cmd
+[submodule "addons/2026_08_10_gdp_omi_file_import"]
+	path = addons/2026_08_10_gdp_omi_file_import
+	url = https://github.com/EloiStree/2026_08_10_gdp_omi_file_import
+[submodule "addons/2026_08_13_gdp_developer_note"]
+	path = addons/2026_08_13_gdp_developer_note
+	url = https://github.com/EloiStree/2026_08_13_gdp_developer_note
