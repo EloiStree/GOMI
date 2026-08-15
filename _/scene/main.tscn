@@ -8,8 +8,10 @@
 [ext_resource type="Script" uid="uid://ysrq37d0k7sv" path="res://addons/2025_10_27_gdp_udp_in_out_gate/scripts/alias/udp_io_alias_key_to_list.gd" id="3_8awcc"]
 [ext_resource type="Script" uid="uid://upwr546drop3" path="res://addons/2026_08_09_gdp_text_interpeter_sc_cmd/script/scmd_ui_submit_text_edit.gd" id="3_cmwcy"]
 [ext_resource type="Script" uid="uid://cku7rckwwwh4i" path="res://addons/2026_08_09_gdp_text_interpeter_sc_cmd/script/unstored/scmd_text_delayer_.gd" id="3_glqed"]
+[ext_resource type="Script" uid="uid://briys5vafrqt" path="res://addons/2026_08_09_gdp_text_interpeter_sc_cmd/scene/guid/demo_2d_scmd_static_singleton/scmd_push_shortcut_to_static_singleton.gd" id="4_dewju"]
 [ext_resource type="Script" uid="uid://bjadg744sf2of" path="res://addons/2025_10_27_gdp_udp_in_out_gate/scripts/udp_io_push_package_udp_out_to_targets.gd" id="5_c3qei"]
 [ext_resource type="Script" uid="uid://d3wbcnhud6bjx" path="res://addons/2026_01_03_gdp_input_to_primitive/scene/guid/demo_2d_listen_to_midi/script/input_listen_to_midi.gd" id="7_rwjbu"]
+[ext_resource type="Script" uid="uid://dcshwh1n4qspt" path="res://addons/2026_08_09_gdp_text_interpeter_sc_cmd/scene/guid/demo_2d_scmd_static_singleton/scmd_listen_to_push_shortcut_to_static_singleton.gd" id="8_0c26a"]
 [ext_resource type="Script" uid="uid://ohxds2q6x3n2" path="res://addons/2026_08_09_gdp_text_interpeter_sc_cmd/script/interpreters/open_url/scmd_sc_interpreter_open_url_on_keyword.gd" id="8_8ls2f"]
 [ext_resource type="Script" uid="uid://d1mstwrcbwjyl" path="res://addons/2026_08_13_gdp_developer_note/script/stable/dev_note_demonstrative_scene.gd" id="8_l4bru"]
 [ext_resource type="Script" uid="uid://cvg8t0aqgk2ri" path="res://addons/2026_08_09_gdp_text_interpeter_sc_cmd/script/interpreters/integer/scmd_sc_interpreter_integer_action.gd" id="9_0c26a"]
@@ -31,6 +33,8 @@
 [ext_resource type="PackedScene" uid="uid://lee8dfjmvx1s" path="res://addons/2026_01_03_gdp_input_to_primitive/scene/guid/demo_2d_listen_to_copy_past/demo_2d_listen_to_copy_past.tscn" id="16_ov4wx"]
 [ext_resource type="PackedScene" uid="uid://ckrhseo4w54p1" path="res://addons/2026_01_03_gdp_input_to_primitive/scene/guid/demo_2d_listen_to_mouse_screen_area/scene/demo_2d_listen_to_mouse_screen.tscn" id="19_netmx"]
 [ext_resource type="Script" uid="uid://dwil6s4natvf5" path="res://addons/2026_08_09_gdp_text_interpeter_sc_cmd/script/scmd_ui_submit_line_edit.gd" id="29_lmmxa"]
+[ext_resource type="PackedScene" uid="uid://xnlog20366in" path="res://addons/2026_01_03_gdp_input_to_primitive/scene/guid/demo_2d_tigger_text_to_interpret/demo_2d_tigger_text_to_interpret.tscn" id="31_xvmp1"]
+[ext_resource type="PackedScene" uid="uid://b65unl10jnrtn" path="res://addons/2026_01_03_gdp_input_to_primitive/scene/guid/demo_2d_input_ui_value_changed/demo_2d_input_ui_value_changed.tscn" id="32_y7hht"]
 
 [node name="Main" type="Node3D" unique_id=647913467]
 
@@ -79,6 +83,16 @@ _note = "Make a Websocket RSA connection to APInt.IO
 metadata/_custom_type_script = "uid://d3bq1wmbyp1v4"
 
 [node name="Shortcut" type="Node" parent="GOMI/Code" unique_id=2045222757]
+
+[node name="Listener" type="Node" parent="GOMI/Code/Shortcut" unique_id=964221474]
+
+[node name="Push Shortcut To Listener" type="Node" parent="GOMI/Code/Shortcut/Listener" unique_id=106257740]
+script = ExtResource("4_dewju")
+metadata/_custom_type_script = "uid://briys5vafrqt"
+
+[node name="Listen to Push Shortcut" type="Node" parent="GOMI/Code/Shortcut/Listener" unique_id=1643832822]
+script = ExtResource("8_0c26a")
+metadata/_custom_type_script = "uid://dcshwh1n4qspt"
 
 [node name="Process Round Bracket" type="Node" parent="GOMI/Code/Shortcut" unique_id=1797395027]
 script = ExtResource("1_cubx4")
@@ -144,6 +158,12 @@ script = ExtResource("8_l4bru")
 _main_scene_reference = ExtResource("9_bvtn2")
 metadata/_custom_type_script = "uid://d1mstwrcbwjyl"
 
+[node name="MIDI" type="Node" parent="GOMI/Code/Input" unique_id=1335386529]
+
+[node name="NFC" type="Node" parent="GOMI/Code/Input" unique_id=1487774833]
+
+[node name="LOG" type="Node" parent="GOMI/Code/Input" unique_id=1359513277]
+
 [node name="Nfc And Log" type="Node" parent="GOMI/Code" unique_id=283061082]
 
 [node name="Text Finish By" type="Node" parent="GOMI/Code/Nfc And Log" unique_id=1359771797]
@@ -162,10 +182,9 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-current_tab = 1
+current_tab = 0
 
 [node name="VBox Input" type="Panel" parent="CanvasLayer/GOMI TAB" unique_id=1151134158]
-visible = false
 layout_mode = 2
 metadata/_tab_index = 0
 
@@ -176,7 +195,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-current_tab = 8
+current_tab = 10
 
 [node name="MIDI" parent="CanvasLayer/GOMI TAB/VBox Input/TabContainer" unique_id=1257018321 instance=ExtResource("9_bvtn2")]
 visible = false
@@ -219,10 +238,51 @@ layout_mode = 2
 metadata/_tab_index = 7
 
 [node name="Mouse Area" parent="CanvasLayer/GOMI TAB/VBox Input/TabContainer" unique_id=2143746156 instance=ExtResource("19_netmx")]
+visible = false
 layout_mode = 2
 metadata/_tab_index = 8
 
+[node name="Grid" parent="CanvasLayer/GOMI TAB/VBox Input/TabContainer" unique_id=2022053850 instance=ExtResource("31_xvmp1")]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 9
+
+[node name="UI Emit" parent="CanvasLayer/GOMI TAB/VBox Input/TabContainer" unique_id=1318290114 instance=ExtResource("32_y7hht")]
+layout_mode = 2
+metadata/_tab_index = 10
+
+[node name="InputUiValueChangedFromButton4" parent="CanvasLayer/GOMI TAB/VBox Input/TabContainer/UI Emit/TextureButton" parent_id_path=PackedInt32Array(1318290114, 163895440) index="0" unique_id=824719083]
+_current_value = null
+_previous_value = null
+_debug_formatted_text = null
+_last_change_as_debug_text = null
+
+[node name="InputUiValueChangedFromButton" parent="CanvasLayer/GOMI TAB/VBox Input/TabContainer/UI Emit/VBoxContainer/HBoxContainerButton/Button" parent_id_path=PackedInt32Array(1318290114, 725123504) index="0" unique_id=1422758906]
+_current_value = null
+_previous_value = null
+_debug_formatted_text = null
+_last_change_as_debug_text = null
+
+[node name="InputUiValueChangedFromButton" parent="CanvasLayer/GOMI TAB/VBox Input/TabContainer/UI Emit/VBoxContainer/HBoxContainerButton/CheckButton" parent_id_path=PackedInt32Array(1318290114, 2007737270) index="0" unique_id=1506123065]
+_current_value = null
+_previous_value = null
+_debug_formatted_text = null
+_last_change_as_debug_text = null
+
+[node name="InputUiValueChangedFromButton2" parent="CanvasLayer/GOMI TAB/VBox Input/TabContainer/UI Emit/VBoxContainer/HBoxContainerButton/MenuButton" parent_id_path=PackedInt32Array(1318290114, 1533083999) index="1" unique_id=1126555640]
+_current_value = null
+_previous_value = null
+_debug_formatted_text = null
+_last_change_as_debug_text = null
+
+[node name="InputUiValueChangedFromButton3" parent="CanvasLayer/GOMI TAB/VBox Input/TabContainer/UI Emit/VBoxContainer/HBoxContainerButton/OptionButton" parent_id_path=PackedInt32Array(1318290114, 1614299096) index="1" unique_id=1037682883]
+_current_value = null
+_previous_value = null
+_debug_formatted_text = null
+_last_change_as_debug_text = null
+
 [node name="Interpretor" type="Panel" parent="CanvasLayer/GOMI TAB" unique_id=1256017668]
+visible = false
 layout_mode = 2
 metadata/_tab_index = 1
 
@@ -332,6 +392,7 @@ metadata/_custom_type_script = "uid://dnh35s7ldvx7"
 custom_minimum_size = Vector2(0, 80)
 layout_mode = 2
 
+[connection signal="on_shortcut_to_interpret" from="GOMI/Code/Shortcut/Listener/Listen to Push Shortcut" to="GOMI/Code/Shortcut/Process Round Bracket" method="parse_text_then_emit"]
 [connection signal="on_parsed_text_emitted" from="GOMI/Code/Shortcut/Process Round Bracket" to="GOMI/Code/Shortcut/Process Round Bracket/Shortcut Word Delayer" method="push_in_text_to_split_and_delay"]
 [connection signal="on_word_ready_to_be_interpreted" from="GOMI/Code/Shortcut/Process Round Bracket/Shortcut Word Delayer" to="GOMI/Code/Shortcut/SCmdShortcutWordAuctioneer" method="push_in_shortcut_text"]
 [connection signal="on_midi_channel_note_velocity_found" from="GOMI/Code/Shortcut/SCmdShortcutWordAuctioneer/Interpreters/Midi UDP Out" to="GOMI/Code/Shortcut/SCmdShortcutWordAuctioneer/Interpreters/Midi UDP Out/Midi Udp Localhost" method="send_channel_note_velocity_to_localhost"]
@@ -360,5 +421,6 @@ layout_mode = 2
 [editable path="CanvasLayer/GOMI TAB/VBox Input/TabContainer/TV Remote"]
 [editable path="CanvasLayer/GOMI TAB/VBox Input/TabContainer/Copy Past"]
 [editable path="CanvasLayer/GOMI TAB/VBox Input/TabContainer/Mouse Area"]
+[editable path="CanvasLayer/GOMI TAB/VBox Input/TabContainer/UI Emit"]
 [editable path="CanvasLayer/GOMI TAB/Delay Text/Delay Text Window"]
 [editable path="CanvasLayer/GOMI TAB/Delay Text/Delay Text Window/Panel Relay Text"]
