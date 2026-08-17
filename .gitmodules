@@ -64,3 +64,9 @@
 [submodule "addons/2026_08_13_gdp_developer_note"]
 	path = addons/2026_08_13_gdp_developer_note
 	url = https://github.com/EloiStree/2026_08_13_gdp_developer_note
+[submodule "addons/2026_08_16_gdp_files_as_one_text"]
+	path = addons/2026_08_16_gdp_files_as_one_text
+	url = https://github.com/EloiStree/2026_08_16_gdp_files_as_one_text.git
+[submodule "addons/2026_08_17_gdp_audio_spectrogram_as_input"]
+	path = addons/2026_08_17_gdp_audio_spectrogram_as_input
+	url = https://github.com/EloiStree/2026_08_17_gdp_audio_spectrogram_as_input.git
