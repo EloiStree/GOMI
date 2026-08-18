@@ -6,38 +6,57 @@
 [ext_resource type="Script" uid="uid://b2ny4vub2sgib" path="res://addons/2026_08_09_gdp_text_interpeter_sc_cmd/scene/guid/demo_2d_vbox_actioneer_for_words/script/core/scmd_shortcut_word_auctioneer.gd" id="2_1gxwg"]
 [ext_resource type="Script" uid="uid://d3bq1wmbyp1v4" path="res://addons/2026_08_13_gdp_developer_note/script/stable/dev_note_to_do_item_multiline.gd" id="2_585k0"]
 [ext_resource type="Script" uid="uid://bvf5c2pm8wf0y" path="res://addons/2026_08_09_gdp_text_interpeter_sc_cmd/scene/guid/demo_2d_shortcut_to_delay_words/scmd_shortcut_words_delayer.gd" id="2_glqed"]
-[ext_resource type="Script" uid="uid://b0iv2gsv2igq3" path="res://addons/2026_08_16_gdp_files_as_one_text/demo/guid/demo_2d_vbox_download_fuse_url_local/file_config_download_and_fuse_url.gd" id="2_lmmxa"]
+[ext_resource type="Script" uid="uid://cjuxlek8dqwec" path="res://addons/2026_08_16_gdp_files_as_one_text/demo/guid/demo_2d_vbox_download_fuse_url_local/file_config_redirection_by_name_relay_broadcaster.gd" id="2_has3g"]
 [ext_resource type="Script" uid="uid://ysrq37d0k7sv" path="res://addons/2025_10_27_gdp_udp_in_out_gate/scripts/alias/udp_io_alias_key_to_list.gd" id="3_8awcc"]
+[ext_resource type="Script" uid="uid://ci68j7wx1poj6" path="res://addons/2026_08_16_gdp_files_as_one_text/demo/guid/demo_2d_vbox_download_fuse_url_local/file_config_redirection_by_name_relay.gd" id="3_2018l"]
 [ext_resource type="Script" uid="uid://upwr546drop3" path="res://addons/2026_08_09_gdp_text_interpeter_sc_cmd/script/scmd_ui_submit_text_edit.gd" id="3_cmwcy"]
 [ext_resource type="Script" uid="uid://cku7rckwwwh4i" path="res://addons/2026_08_09_gdp_text_interpeter_sc_cmd/script/unstored/scmd_text_delayer_.gd" id="3_glqed"]
+[ext_resource type="Script" uid="uid://djrstxa66bhuq" path="res://addons/2026_08_16_gdp_files_as_one_text/demo/guid/demo_2d_vbox_download_fuse_url_local/file_config_fuse_all_fles_in_folder_as_big_text.gd" id="3_wwu1v"]
 [ext_resource type="Script" uid="uid://briys5vafrqt" path="res://addons/2026_08_09_gdp_text_interpeter_sc_cmd/scene/guid/demo_2d_scmd_static_singleton/scmd_push_shortcut_to_static_singleton.gd" id="4_dewju"]
+[ext_resource type="Script" uid="uid://c5s876kolj2pe" path="res://addons/2026_08_10_gdp_omi_file_import/scene/script/unstored/omi_file_text_to_godot_keyboard_to_cmd.gd" id="4_has3g"]
 [ext_resource type="Script" uid="uid://bjadg744sf2of" path="res://addons/2025_10_27_gdp_udp_in_out_gate/scripts/udp_io_push_package_udp_out_to_targets.gd" id="5_c3qei"]
+[ext_resource type="Script" uid="uid://c148v6fljprxl" path="res://addons/2026_08_10_gdp_omi_file_import/scene/script/unstored/omi_file_text_key_value_split_by_diamond.gd" id="6_rgn43"]
 [ext_resource type="Script" uid="uid://ru6nwtr6o2j2" path="res://addons/2026_08_09_gdp_text_interpeter_sc_cmd/script/unstored/scmd_parser_replace_shortcut_word_from_alias.gd" id="7_2vkrb"]
 [ext_resource type="Script" uid="uid://d3wbcnhud6bjx" path="res://addons/2026_01_03_gdp_input_to_primitive/scene/guid/demo_2d_listen_to_midi/script/input_listen_to_midi.gd" id="7_rwjbu"]
 [ext_resource type="Script" uid="uid://dcshwh1n4qspt" path="res://addons/2026_08_09_gdp_text_interpeter_sc_cmd/scene/guid/demo_2d_scmd_static_singleton/scmd_listen_to_push_shortcut_to_static_singleton.gd" id="8_0c26a"]
-[ext_resource type="Script" uid="uid://ohxds2q6x3n2" path="res://addons/2026_08_09_gdp_text_interpeter_sc_cmd/script/interpreters/open_url/scmd_sc_interpreter_open_url_on_keyword.gd" id="8_8ls2f"]
 [ext_resource type="Script" uid="uid://d1mstwrcbwjyl" path="res://addons/2026_08_13_gdp_developer_note/script/stable/dev_note_demonstrative_scene.gd" id="8_l4bru"]
-[ext_resource type="Script" uid="uid://cvg8t0aqgk2ri" path="res://addons/2026_08_09_gdp_text_interpeter_sc_cmd/script/interpreters/integer/scmd_sc_interpreter_integer_action.gd" id="9_0c26a"]
 [ext_resource type="PackedScene" uid="uid://i377isghs00m" path="res://addons/2026_01_03_gdp_input_to_primitive/scene/guid/demo_2d_listen_to_midi/demo_2d_vbox_listen_to_midi.tscn" id="9_bvtn2"]
 [ext_resource type="Script" uid="uid://ysih2ue3s8ac" path="res://addons/2026_01_03_gdp_input_to_primitive/scene/guid/demo_2d_text_to_text_action/script/input_text_dictionary_action_if_finishing_by.gd" id="10_28xsu"]
-[ext_resource type="Script" uid="uid://bmjoj6331yk6a" path="res://addons/2026_08_09_gdp_text_interpeter_sc_cmd/script/interpreters/ignore_wait/scmd_sc_interpreter_wait_for_n_milliseconds.gd" id="10_dewju"]
+[ext_resource type="Script" uid="uid://bludagc52ldcv" path="res://addons/2026_08_09_gdp_text_interpeter_sc_cmd/scene/guid/demo_2d_actioneer_for_commands_line/script/scmd_command_line_auctioneer.gd" id="10_iilpp"]
 [ext_resource type="Script" uid="uid://b5ehbb8ry71dq" path="res://addons/2026_01_03_gdp_input_to_primitive/scene/guid/demo_2d_text_to_text_action/script/input_text_dictionary_action_if_equals_to.gd" id="11_netmx"]
-[ext_resource type="Script" uid="uid://0ebuvi8k7fbd" path="res://addons/2026_08_09_gdp_text_interpeter_sc_cmd/script/interpreters/midi/scmd_sc_interpeter_midi.gd" id="11_xvmp1"]
+[ext_resource type="Script" uid="uid://cusc6quwej757" path="res://addons/2026_08_09_gdp_text_interpeter_sc_cmd/scene/guid/demo_2d_scmd_static_singleton/scmd_push_command_line_to_static_singleton.gd" id="11_rgn43"]
+[ext_resource type="Script" uid="uid://bf1pvarstcheb" path="res://addons/2026_08_09_gdp_text_interpeter_sc_cmd/script/interpreters_cmd/log/scmd_cmd_interpreter_print_log.gd" id="11_wwu1v"]
 [ext_resource type="PackedScene" uid="uid://btn88dqjqeasu" path="res://addons/2026_01_03_gdp_input_to_primitive/scene/guid/demo_2d_listen_to_mouse/demo_2d_vbox_listen_to_mouse.tscn" id="12_bvtn2"]
-[ext_resource type="Script" uid="uid://bnh4ggp3el6ai" path="res://addons/2026_08_09_gdp_text_interpeter_sc_cmd/script/interpreters/midi/scmd_sc_default_midi_output.gd" id="12_y7hht"]
-[ext_resource type="Script" uid="uid://bfvhdcjt1g5ye" path="res://addons/2026_08_09_gdp_text_interpeter_sc_cmd/script/interpreters/clipboard/scmd_sc_interpreter_clipboard_storage.gd" id="13_2vkrb"]
+[ext_resource type="Script" uid="uid://bats724ddubpu" path="res://addons/2026_08_09_gdp_text_interpeter_sc_cmd/script/interpreters_cmd/in_delayer/scmd_cmd_interpreter_in_time_delayer.gd" id="12_ck7vd"]
 [ext_resource type="PackedScene" uid="uid://h51oervmqplh" path="res://addons/2026_01_03_gdp_input_to_primitive/scene/guid/demo_2d_listen_to_nfc_bar_code/demo_2d_vbox_listen_to_nfc_bar_code.tscn" id="13_jtqnq"]
 [ext_resource type="PackedScene" uid="uid://c64isfnfdg043" path="res://addons/2026_01_03_gdp_input_to_primitive/scene/guid/demo_2d_listen_to_os_ctrl_shift_alt/scene/guid/demo_2d_vbox_ctrl_shift_alt/demo_2d_vbox_ctrl_shift_alt.tscn" id="14_0bajj"]
+[ext_resource type="Script" uid="uid://37ph7dwa7ih2" path="res://addons/2026_08_09_gdp_text_interpeter_sc_cmd/script/interpreters_cmd/short_cut_relayer/scmd_cmd_interpreter_relay_to_shortcut_actioneer.gd" id="14_has3g"]
 [ext_resource type="PackedScene" uid="uid://2fb6igtpf0bj" path="res://addons/2026_01_03_gdp_input_to_primitive/scene/guid/demo_2d_action_from_in_app_key_logger/demo_2d_action_from_in_app_key_logger.tscn" id="14_jtqnq"]
-[ext_resource type="Script" uid="uid://bcgdlgdpkc1wp" path="res://addons/2026_08_09_gdp_text_interpeter_sc_cmd/script/interpreters/clipboard/scmd_sc_default_clipboard_storage.gd" id="14_l1t77"]
 [ext_resource type="PackedScene" uid="uid://ba3og4m0880ou" path="res://addons/2026_01_03_gdp_input_to_primitive/scene/guid/demo_2d_listen_to_gamepad_button_axis/scene/guid/demo_2d_vbox_listen_to_axis_buttons.tscn" id="15_8fnf6"]
 [ext_resource type="PackedScene" uid="uid://brttoxwq0pfav" path="res://addons/2026_01_03_gdp_input_to_primitive/scene/guid/demo_2d_listen_to_tv_remote/scene/guid/demo_2d_vbox_listen_to_tv_remote/demo_2d_vbox_listen_to_tv_remote.tscn" id="15_8i4cd"]
-[ext_resource type="Script" uid="uid://bmx4ne8gcmd62" path="res://addons/2026_08_09_gdp_text_interpeter_sc_cmd/script/interpreters/tbio_iid/scmd_sc_interpeter_tbio_iid.gd" id="15_8kdry"]
+[ext_resource type="Script" uid="uid://ruty58kxt2hc" path="res://addons/2026_08_16_gdp_files_as_one_text/demo/guid/demo_2d_vbox_download_fuse_url_local/file_config_text_to_file_filter.gd" id="16_2018l"]
 [ext_resource type="PackedScene" uid="uid://lee8dfjmvx1s" path="res://addons/2026_01_03_gdp_input_to_primitive/scene/guid/demo_2d_listen_to_copy_past/demo_2d_listen_to_copy_past.tscn" id="16_ov4wx"]
 [ext_resource type="PackedScene" uid="uid://ckrhseo4w54p1" path="res://addons/2026_01_03_gdp_input_to_primitive/scene/guid/demo_2d_listen_to_mouse_screen_area/scene/demo_2d_listen_to_mouse_screen.tscn" id="19_netmx"]
+[ext_resource type="Script" uid="uid://cgetyfyk4dgns" path="res://addons/2026_08_09_gdp_text_interpeter_sc_cmd/scene/guid/demo_2d_scmd_static_singleton/scmd_listen_to_push_command_line_to_static_singleton.gd" id="22_iilpp"]
+[ext_resource type="Script" uid="uid://kj647thywf50" path="res://addons/2026_01_03_gdp_input_to_primitive/script/input_on_off_keyboard_unicode_string.gd" id="24_rsmge"]
+[ext_resource type="Script" uid="uid://bqqwg0rappos1" path="res://addons/2026_01_03_gdp_input_to_primitive/script/nfc/input_translate_text_to_text_list.gd" id="25_wwu1v"]
+[ext_resource type="Script" uid="uid://3d6kwndfwv20" path="res://addons/2026_01_03_gdp_input_to_primitive/script/input_on_off_keyboard_unicode_integer.gd" id="26_ck7vd"]
+[ext_resource type="Script" uid="uid://b6d0lxvq0uju0" path="res://addons/2026_01_03_gdp_input_to_primitive/script/input_on_off_keyboard_key_label_as_string.gd" id="27_has3g"]
+[ext_resource type="Script" uid="uid://bgjplt2ncp53d" path="res://addons/2026_01_03_gdp_input_to_primitive/script/nfc/input_translate_text_to_text_list_in_out.gd" id="28_2018l"]
 [ext_resource type="Script" uid="uid://dwil6s4natvf5" path="res://addons/2026_08_09_gdp_text_interpeter_sc_cmd/script/scmd_ui_submit_line_edit.gd" id="29_lmmxa"]
 [ext_resource type="PackedScene" uid="uid://xnlog20366in" path="res://addons/2026_01_03_gdp_input_to_primitive/scene/guid/demo_2d_tigger_text_to_interpret/demo_2d_tigger_text_to_interpret.tscn" id="31_xvmp1"]
 [ext_resource type="PackedScene" uid="uid://b65unl10jnrtn" path="res://addons/2026_01_03_gdp_input_to_primitive/scene/guid/demo_2d_input_ui_value_changed/demo_2d_input_ui_value_changed.tscn" id="32_y7hht"]
+[ext_resource type="Script" uid="uid://ohxds2q6x3n2" path="res://addons/2026_08_09_gdp_text_interpeter_sc_cmd/script/interpreters_sc/open_url/scmd_sc_interpreter_open_url_on_keyword.gd" id="34_kci41"]
+[ext_resource type="Script" uid="uid://cvg8t0aqgk2ri" path="res://addons/2026_08_09_gdp_text_interpeter_sc_cmd/script/interpreters_sc/integer/scmd_sc_interpreter_integer_action.gd" id="35_hp8ja"]
+[ext_resource type="Script" uid="uid://bmjoj6331yk6a" path="res://addons/2026_08_09_gdp_text_interpeter_sc_cmd/script/interpreters_sc/ignore_wait/scmd_sc_interpreter_wait_for_n_milliseconds.gd" id="36_xrwyb"]
+[ext_resource type="Script" uid="uid://0ebuvi8k7fbd" path="res://addons/2026_08_09_gdp_text_interpeter_sc_cmd/script/interpreters_sc/midi/scmd_sc_interpeter_midi.gd" id="37_68an0"]
+[ext_resource type="Script" uid="uid://bfvhdcjt1g5ye" path="res://addons/2026_08_09_gdp_text_interpeter_sc_cmd/script/interpreters_sc/clipboard/scmd_sc_interpreter_clipboard_storage.gd" id="38_1xswp"]
+[ext_resource type="Script" uid="uid://bnh4ggp3el6ai" path="res://addons/2026_08_09_gdp_text_interpeter_sc_cmd/script/interpreters_sc/midi/scmd_sc_default_midi_output.gd" id="38_hp8ja"]
+[ext_resource type="Script" uid="uid://bmx4ne8gcmd62" path="res://addons/2026_08_09_gdp_text_interpeter_sc_cmd/script/interpreters_sc/tbio_iid/scmd_sc_interpeter_tbio_iid.gd" id="39_m1p13"]
+[ext_resource type="Script" uid="uid://bcgdlgdpkc1wp" path="res://addons/2026_08_09_gdp_text_interpeter_sc_cmd/script/interpreters_sc/clipboard/scmd_sc_default_clipboard_storage.gd" id="40_xrwyb"]
+[ext_resource type="PackedScene" uid="uid://bibwipwfhymmj" path="res://addons/2026_01_03_gdp_input_to_primitive/scene/guid/demo_2d_listen_to_keyboard_input/demo_vbox_2d_listen_keyboard_input.tscn" id="43_rgn43"]
+[ext_resource type="PackedScene" uid="uid://bg2oltipkal3j" path="res://addons/2026_08_16_gdp_files_as_one_text/demo/guid/demo_2d_vbox_download_fuse_url_local/scene/prefab/prefab_button_res_os_directory.tscn" id="45_has3g"]
+[ext_resource type="PackedScene" uid="uid://ckhrtixvka8p" path="res://addons/2026_08_16_gdp_files_as_one_text/demo/guid/demo_2d_vbox_download_fuse_url_local/scene/prefab/prefab_button_user_os_directory.tscn" id="46_2018l"]
 
 [node name="Main" type="Node3D" unique_id=647913467]
 
@@ -45,44 +64,30 @@
 
 [node name="GOMI" type="Node" parent="." unique_id=1955230863]
 
-[node name="File" type="Node" parent="GOMI" unique_id=2068351418]
-
-[node name="Sleepy" type="Node" parent="GOMI/File" unique_id=1627812886]
-
-[node name="FileConfigDownloadAndFuseUrl" type="Node" parent="GOMI/File/Sleepy" unique_id=2045663873]
-script = ExtResource("2_lmmxa")
-_url_to_load_from_inspector = "https://github.com/EloiStree/PlayTo_HordesIO/blob/main/hordes_io.sc_alias
-"
-metadata/_custom_type_script = "uid://b0iv2gsv2igq3"
-
-[node name="OmiFileParseTextToScAlias" type="Node" parent="GOMI/File/Sleepy/FileConfigDownloadAndFuseUrl" unique_id=1925041327]
-script = ExtResource("1_8kdry")
-metadata/_custom_type_script = "uid://d0eo07oyjqtai"
-
 [node name="Code" type="Node" parent="GOMI" unique_id=365457322]
 
-[node name="Push Out Package" type="Node" parent="GOMI/Code" unique_id=856442596]
+[node name="TBIO Out" type="Node" parent="GOMI/Code" unique_id=856442596]
 
-[node name="Udp Alias Pusher" type="Node" parent="GOMI/Code/Push Out Package" unique_id=603992828]
+[node name="Udp Alias Pusher" type="Node" parent="GOMI/Code/TBIO Out" unique_id=603992828]
 script = ExtResource("3_8awcc")
 _alias_to_list_of_targets_bytes = Dictionary[String, Array]({
-"Paul": ["127.0.0.1:3615", "192.168.178.163:7073", "192.168.178.185:7073", "192.168.178.33:7073"]
+"Paul": ["192.168.178.102:7073", "192.168.178.33:7073"]
 })
 _alias_to_list_of_targets_text = Dictionary[String, Array]({
 "Paul": ["127.0.0.1:3614", null]
 })
 metadata/_custom_type_script = "uid://ysrq37d0k7sv"
 
-[node name="Udp To Local" type="Node" parent="GOMI/Code/Push Out Package" unique_id=779936872]
+[node name="Udp To Local" type="Node" parent="GOMI/Code/TBIO Out" unique_id=779936872]
 script = ExtResource("5_c3qei")
 list_targets_ipv4 = Array[String](["127.0.0.1"])
 port_for_text = 7074
 port_for_bytes = 7073
 metadata/_custom_type_script = "uid://bjadg744sf2of"
 
-[node name="TBIO Local" type="Node" parent="GOMI/Code/Push Out Package" unique_id=69020595]
+[node name="TBIO Local" type="Node" parent="GOMI/Code/TBIO Out" unique_id=69020595]
 
-[node name="Task" type="Node" parent="GOMI/Code/Push Out Package/TBIO Local" unique_id=1516588589]
+[node name="Task" type="Node" parent="GOMI/Code/TBIO Out/TBIO Local" unique_id=1516588589]
 script = ExtResource("2_585k0")
 _priority = 2
 _complexity = 0
@@ -94,9 +99,9 @@ But they could prefers something else that they are able to code.
 Or want to do it differently."
 metadata/_custom_type_script = "uid://d3bq1wmbyp1v4"
 
-[node name="WS RSA" type="Node" parent="GOMI/Code/Push Out Package" unique_id=1481845688]
+[node name="WS RSA" type="Node" parent="GOMI/Code/TBIO Out" unique_id=1481845688]
 
-[node name="Task" type="Node" parent="GOMI/Code/Push Out Package/WS RSA" unique_id=864497413]
+[node name="Task" type="Node" parent="GOMI/Code/TBIO Out/WS RSA" unique_id=864497413]
 script = ExtResource("2_585k0")
 _priority = 0
 _complexity = 0
@@ -104,74 +109,6 @@ _title = "Websocket RSA APInt.io"
 _note = "Make a Websocket RSA connection to APInt.IO
 "
 metadata/_custom_type_script = "uid://d3bq1wmbyp1v4"
-
-[node name="Shortcut" type="Node" parent="GOMI/Code" unique_id=2045222757]
-
-[node name="Listener" type="Node" parent="GOMI/Code/Shortcut" unique_id=964221474]
-
-[node name="Push Shortcut To Listener" type="Node" parent="GOMI/Code/Shortcut/Listener" unique_id=106257740]
-script = ExtResource("4_dewju")
-metadata/_custom_type_script = "uid://briys5vafrqt"
-
-[node name="Listen to Push Shortcut" type="Node" parent="GOMI/Code/Shortcut/Listener" unique_id=1643832822]
-script = ExtResource("8_0c26a")
-metadata/_custom_type_script = "uid://dcshwh1n4qspt"
-
-[node name="Process Round Bracket" type="Node" parent="GOMI/Code/Shortcut" unique_id=1797395027]
-script = ExtResource("1_cubx4")
-metadata/_custom_type_script = "uid://dnh35s7ldvx7"
-
-[node name="ScmdParserReplaceShortcutWordFromAlias" type="Node" parent="GOMI/Code/Shortcut/Process Round Bracket" unique_id=502396782]
-script = ExtResource("7_2vkrb")
-
-[node name="Shortcut Word Delayer" type="Node" parent="GOMI/Code/Shortcut/Process Round Bracket/ScmdParserReplaceShortcutWordFromAlias" unique_id=1688279185 node_paths=PackedStringArray("_text_delayer")]
-script = ExtResource("2_glqed")
-_text_delayer = NodePath("SCmdTextDelayer")
-metadata/_custom_type_script = "uid://bvf5c2pm8wf0y"
-
-[node name="SCmdTextDelayer" type="Node" parent="GOMI/Code/Shortcut/Process Round Bracket/ScmdParserReplaceShortcutWordFromAlias/Shortcut Word Delayer" unique_id=148141855]
-script = ExtResource("3_glqed")
-metadata/_custom_type_script = "uid://cku7rckwwwh4i"
-
-[node name="SCmdShortcutWordAuctioneer" type="Node" parent="GOMI/Code/Shortcut" unique_id=2117007684 node_paths=PackedStringArray("_interpreter_bidders")]
-script = ExtResource("2_1gxwg")
-_interpreter_bidders = [NodePath("Interpreters/Integer Action"), NodePath("Interpreters/To Doing/TBIO ~>"), NodePath("Interpreters/Midi UDP Out"), NodePath("Interpreters/Save And Load Clipboard"), NodePath("Interpreters/Wait 1000>")]
-metadata/_custom_type_script = "uid://b2ny4vub2sgib"
-
-[node name="Interpreters" type="Node" parent="GOMI/Code/Shortcut/SCmdShortcutWordAuctioneer" unique_id=289497450]
-
-[node name="Open Url" type="Node" parent="GOMI/Code/Shortcut/SCmdShortcutWordAuctioneer/Interpreters" unique_id=371847025]
-script = ExtResource("8_8ls2f")
-
-[node name="Integer Action" type="Node" parent="GOMI/Code/Shortcut/SCmdShortcutWordAuctioneer/Interpreters" unique_id=238685304]
-script = ExtResource("9_0c26a")
-
-[node name="Wait 1000>" type="Node" parent="GOMI/Code/Shortcut/SCmdShortcutWordAuctioneer/Interpreters" unique_id=1545822692]
-script = ExtResource("10_dewju")
-
-[node name="Midi UDP Out" type="Node" parent="GOMI/Code/Shortcut/SCmdShortcutWordAuctioneer/Interpreters" unique_id=784872356]
-script = ExtResource("11_xvmp1")
-metadata/_custom_type_script = "uid://0ebuvi8k7fbd"
-
-[node name="Midi Udp Localhost" type="Node" parent="GOMI/Code/Shortcut/SCmdShortcutWordAuctioneer/Interpreters/Midi UDP Out" unique_id=915070410]
-script = ExtResource("12_y7hht")
-metadata/_custom_type_script = "uid://bnh4ggp3el6ai"
-
-[node name="Save And Load Clipboard" type="Node" parent="GOMI/Code/Shortcut/SCmdShortcutWordAuctioneer/Interpreters" unique_id=621184770]
-script = ExtResource("13_2vkrb")
-
-[node name="Clipboard Storage" type="Node" parent="GOMI/Code/Shortcut/SCmdShortcutWordAuctioneer/Interpreters/Save And Load Clipboard" unique_id=603213341]
-script = ExtResource("14_l1t77")
-
-[node name="To Do" type="Node" parent="GOMI/Code/Shortcut/SCmdShortcutWordAuctioneer/Interpreters" unique_id=1057255302]
-
-[node name="To Doing" type="Node" parent="GOMI/Code/Shortcut/SCmdShortcutWordAuctioneer/Interpreters" unique_id=1496117931]
-
-[node name="TBIO ~>" type="Node" parent="GOMI/Code/Shortcut/SCmdShortcutWordAuctioneer/Interpreters/To Doing" unique_id=2099038635]
-script = ExtResource("15_8kdry")
-metadata/_custom_type_script = "uid://bmx4ne8gcmd62"
-
-[node name="To Done" type="Node" parent="GOMI/Code/Shortcut/SCmdShortcutWordAuctioneer/Interpreters" unique_id=342364590]
 
 [node name="Input" type="Node" parent="GOMI/Code" unique_id=1966233397]
 
@@ -186,41 +123,269 @@ metadata/_custom_type_script = "uid://d1mstwrcbwjyl"
 
 [node name="MIDI" type="Node" parent="GOMI/Code/Input" unique_id=1335386529]
 
+[node name="InputListenToMidi" type="Node" parent="GOMI/Code/Input/MIDI" unique_id=1557428274]
+script = ExtResource("7_rwjbu")
+metadata/_custom_type_script = "uid://d3wbcnhud6bjx"
+
 [node name="NFC" type="Node" parent="GOMI/Code/Input" unique_id=1487774833]
+
+[node name="NFC" type="Node" parent="GOMI/Code/Input/NFC" unique_id=700281785]
+
+[node name="Text Finish By" type="Node" parent="GOMI/Code/Input/NFC/NFC" unique_id=1925126420]
+script = ExtResource("10_28xsu")
+metadata/_custom_type_script = "uid://ysih2ue3s8ac"
+
+[node name="Text Equals By" type="Node" parent="GOMI/Code/Input/NFC/NFC" unique_id=1045992295]
+script = ExtResource("11_netmx")
+metadata/_custom_type_script = "uid://b5ehbb8ry71dq"
 
 [node name="LOG" type="Node" parent="GOMI/Code/Input" unique_id=1359513277]
 
-[node name="Nfc And Log" type="Node" parent="GOMI/Code" unique_id=283061082]
+[node name="Key Log" type="Node" parent="GOMI/Code/Input/LOG" unique_id=1551147907]
 
-[node name="NFC" type="Node" parent="GOMI/Code/Nfc And Log" unique_id=700281785]
-
-[node name="Text Finish By" type="Node" parent="GOMI/Code/Nfc And Log/NFC" unique_id=1925126420]
+[node name="Text Finish By" type="Node" parent="GOMI/Code/Input/LOG/Key Log" unique_id=1359771797]
 script = ExtResource("10_28xsu")
 metadata/_custom_type_script = "uid://ysih2ue3s8ac"
 
-[node name="Text Equals By" type="Node" parent="GOMI/Code/Nfc And Log/NFC" unique_id=1045992295]
+[node name="Text Equals By" type="Node" parent="GOMI/Code/Input/LOG/Key Log" unique_id=540986458]
 script = ExtResource("11_netmx")
 metadata/_custom_type_script = "uid://b5ehbb8ry71dq"
 
-[node name="Key Log" type="Node" parent="GOMI/Code/Nfc And Log" unique_id=1551147907]
+[node name="KEYBOARD" type="Node" parent="GOMI/Code/Input" unique_id=1259944519]
 
-[node name="Text Finish By" type="Node" parent="GOMI/Code/Nfc And Log/Key Log" unique_id=1359771797]
-script = ExtResource("10_28xsu")
-metadata/_custom_type_script = "uid://ysih2ue3s8ac"
+[node name="As Unicode Typed" type="Node" parent="GOMI/Code/Input/KEYBOARD" unique_id=1222095617]
 
-[node name="Text Equals By" type="Node" parent="GOMI/Code/Nfc And Log/Key Log" unique_id=540986458]
-script = ExtResource("11_netmx")
-metadata/_custom_type_script = "uid://b5ehbb8ry71dq"
+[node name="InputListenToKeyboardUnicodeAsString" type="Node" parent="GOMI/Code/Input/KEYBOARD/As Unicode Typed" unique_id=2110718427]
+script = ExtResource("24_rsmge")
+metadata/_custom_type_script = "uid://kj647thywf50"
+
+[node name="Unicode Char To Actions" type="Node" parent="GOMI/Code/Input/KEYBOARD/As Unicode Typed/InputListenToKeyboardUnicodeAsString" unique_id=417798930]
+script = ExtResource("25_wwu1v")
+
+[node name="Push Cmd to Singleton" type="Node" parent="GOMI/Code/Input/KEYBOARD/As Unicode Typed/InputListenToKeyboardUnicodeAsString/Unicode Char To Actions" unique_id=1940671495]
+script = ExtResource("11_rgn43")
+metadata/_custom_type_script = "uid://cusc6quwej757"
+
+[node name="InputListenToKeyboardUnicodeAsInteger" type="Node" parent="GOMI/Code/Input/KEYBOARD/As Unicode Typed" unique_id=1483781995]
+script = ExtResource("26_ck7vd")
+metadata/_custom_type_script = "uid://3d6kwndfwv20"
+
+[node name="Integer Char To Actions" type="Node" parent="GOMI/Code/Input/KEYBOARD/As Unicode Typed/InputListenToKeyboardUnicodeAsInteger" unique_id=537217006]
+script = ExtResource("25_wwu1v")
+
+[node name="Push Cmd to Singleton" type="Node" parent="GOMI/Code/Input/KEYBOARD/As Unicode Typed/InputListenToKeyboardUnicodeAsInteger/Integer Char To Actions" unique_id=1098691153]
+script = ExtResource("11_rgn43")
+metadata/_custom_type_script = "uid://cusc6quwej757"
+
+[node name="As Keyboard Typed" type="Node" parent="GOMI/Code/Input/KEYBOARD" unique_id=340289395]
+
+[node name="Input Listen To Keyboard" type="Node" parent="GOMI/Code/Input/KEYBOARD/As Keyboard Typed" unique_id=570095902]
+script = ExtResource("27_has3g")
+metadata/_custom_type_script = "uid://b6d0lxvq0uju0"
+
+[node name="Keyboard Down Up To Actions" type="Node" parent="GOMI/Code/Input/KEYBOARD/As Keyboard Typed/Input Listen To Keyboard" unique_id=1227108530]
+script = ExtResource("28_2018l")
+metadata/_custom_type_script = "uid://bgjplt2ncp53d"
+
+[node name="Push Cmd to Singleton" type="Node" parent="GOMI/Code/Input/KEYBOARD/As Keyboard Typed/Input Listen To Keyboard/Keyboard Down Up To Actions" unique_id=1213600246]
+script = ExtResource("11_rgn43")
+metadata/_custom_type_script = "uid://cusc6quwej757"
+
+[node name="File" type="Node" parent="GOMI/Code" unique_id=2068351418]
+
+[node name="LoadFileFromFolder" type="Node" parent="GOMI/Code/File" unique_id=850707956]
+script = ExtResource("3_wwu1v")
+folders_to_scan = Array[String](["user://data/config", "res://data/config"])
+metadata/_custom_type_script = "uid://djrstxa66bhuq"
+
+[node name="Filter Text As Files" type="Node" parent="GOMI/Code/File/LoadFileFromFolder" unique_id=1004466103]
+script = ExtResource("16_2018l")
+metadata/_custom_type_script = "uid://ruty58kxt2hc"
+
+[node name="FileConfigRedirectionByNameRelayBroadcaster" type="Node" parent="GOMI/Code/File/LoadFileFromFolder/Filter Text As Files" unique_id=2015895183 node_paths=PackedStringArray("_recursive_search_in_parents")]
+script = ExtResource("2_has3g")
+_recursive_search_in_parents = [NodePath(".")]
+metadata/_custom_type_script = "uid://cjuxlek8dqwec"
+
+[node name="_godot_keyboard_to_cmd" type="Node" parent="GOMI/Code/File/LoadFileFromFolder/Filter Text As Files/FileConfigRedirectionByNameRelayBroadcaster" unique_id=1435792238]
+script = ExtResource("3_2018l")
+_exact_file_name = ".godot_keyboard_to_cmd"
+metadata/_custom_type_script = "uid://ci68j7wx1poj6"
+
+[node name="OmiFileTextToGodotKeyboardToCmd" type="Node" parent="GOMI/Code/File/LoadFileFromFolder/Filter Text As Files/FileConfigRedirectionByNameRelayBroadcaster/_godot_keyboard_to_cmd" unique_id=1523652429]
+script = ExtResource("4_has3g")
+metadata/_custom_type_script = "uid://c5s876kolj2pe"
+
+[node name="_godot_unicode_" type="Node" parent="GOMI/Code/File/LoadFileFromFolder/Filter Text As Files/FileConfigRedirectionByNameRelayBroadcaster" unique_id=1619584061]
+script = ExtResource("3_2018l")
+_exact_file_name = ".godot_keyboard_to_cmd"
+metadata/_custom_type_script = "uid://ci68j7wx1poj6"
+
+[node name="_sc_alias" type="Node" parent="GOMI/Code/File/LoadFileFromFolder/Filter Text As Files/FileConfigRedirectionByNameRelayBroadcaster" unique_id=2112460507]
+script = ExtResource("3_2018l")
+_exact_file_name = ".sc_alias"
+metadata/_custom_type_script = "uid://ci68j7wx1poj6"
+
+[node name="OmiFileParseTextToScAlias" type="Node" parent="GOMI/Code/File/LoadFileFromFolder/Filter Text As Files/FileConfigRedirectionByNameRelayBroadcaster/_sc_alias" unique_id=1925041327]
+script = ExtResource("1_8kdry")
+metadata/_custom_type_script = "uid://d0eo07oyjqtai"
+
+[node name="_file_to_boolean" type="Node" parent="GOMI/Code/File/LoadFileFromFolder/Filter Text As Files/FileConfigRedirectionByNameRelayBroadcaster" unique_id=1461390525]
+script = ExtResource("3_2018l")
+_exact_file_name = ".file_to_boolean"
+metadata/_custom_type_script = "uid://ci68j7wx1poj6"
+
+[node name="Key Value Splitter" type="Node" parent="GOMI/Code/File/LoadFileFromFolder/Filter Text As Files/FileConfigRedirectionByNameRelayBroadcaster/_file_to_boolean" unique_id=1544133539]
+script = ExtResource("6_rgn43")
+metadata/_custom_type_script = "uid://c148v6fljprxl"
+
+[node name="To Do" type="Node" parent="GOMI/Code/File/LoadFileFromFolder/Filter Text As Files/FileConfigRedirectionByNameRelayBroadcaster" unique_id=1858090659]
+
+[node name="_command_line_at_ready" type="Node" parent="GOMI/Code/File/LoadFileFromFolder/Filter Text As Files/FileConfigRedirectionByNameRelayBroadcaster/To Do" unique_id=886579877]
+script = ExtResource("2_585k0")
+metadata/_custom_type_script = "uid://d3bq1wmbyp1v4"
+
+[node name="_command_line_at_reload" type="Node" parent="GOMI/Code/File/LoadFileFromFolder/Filter Text As Files/FileConfigRedirectionByNameRelayBroadcaster/To Do" unique_id=1493051908]
+script = ExtResource("2_585k0")
+metadata/_custom_type_script = "uid://d3bq1wmbyp1v4"
+
+[node name="_string_macro_to_commands" type="Node" parent="GOMI/Code/File/LoadFileFromFolder/Filter Text As Files/FileConfigRedirectionByNameRelayBroadcaster/To Do" unique_id=1418298022]
+script = ExtResource("2_585k0")
+_note = "https://github.com/EloiStree/2021_12_14_omi_config_examples/blob/main/lol.stringtocommands"
+metadata/_custom_type_script = "uid://d3bq1wmbyp1v4"
+
+[node name="Command Line" type="Node" parent="GOMI/Code" unique_id=523394184]
+
+[node name="Push" type="Node" parent="GOMI/Code/Command Line" unique_id=1698257483]
+
+[node name="Listener" type="Node" parent="GOMI/Code/Command Line" unique_id=1979047696]
+
+[node name="Listen to Commands Line Request" type="Node" parent="GOMI/Code/Command Line/Listener" unique_id=2066719378]
+script = ExtResource("22_iilpp")
+metadata/_custom_type_script = "uid://cgetyfyk4dgns"
+
+[node name="Actioneer Of Cmd Interpreters" type="Node" parent="GOMI/Code/Command Line" unique_id=1982507853 node_paths=PackedStringArray("_interpreter_bidders")]
+script = ExtResource("10_iilpp")
+_interpreter_bidders = [NodePath("Interpreter/To Delay command with time"), NodePath("Interpreter/To Relay Shortcut to the actioneer"), NodePath("Interpreter/To Print some log")]
+metadata/_custom_type_script = "uid://bludagc52ldcv"
+
+[node name="Interpreter" type="Node" parent="GOMI/Code/Command Line/Actioneer Of Cmd Interpreters" unique_id=1863208167]
+
+[node name="To Print some log" type="Node" parent="GOMI/Code/Command Line/Actioneer Of Cmd Interpreters/Interpreter" unique_id=1542351154 node_paths=PackedStringArray("_labels_for_log", "_labels_for_log_warning", "_labels_for_log_error")]
+script = ExtResource("11_wwu1v")
+_labels_for_log = [null]
+_labels_for_log_warning = [null]
+_labels_for_log_error = [null]
+metadata/_custom_type_script = "uid://bf1pvarstcheb"
+
+[node name="To Delay command with time" type="Node" parent="GOMI/Code/Command Line/Actioneer Of Cmd Interpreters/Interpreter" unique_id=944515631]
+script = ExtResource("12_ck7vd")
+metadata/_custom_type_script = "uid://bats724ddubpu"
+
+[node name="As simple Text Delayer" type="Node" parent="GOMI/Code/Command Line/Actioneer Of Cmd Interpreters/Interpreter/To Delay command with time" unique_id=1927531080]
+script = ExtResource("3_glqed")
+metadata/_custom_type_script = "uid://cku7rckwwwh4i"
+
+[node name="To Relay Shortcut to the actioneer" type="Node" parent="GOMI/Code/Command Line/Actioneer Of Cmd Interpreters/Interpreter" unique_id=1381958000]
+script = ExtResource("14_has3g")
+metadata/_custom_type_script = "uid://37ph7dwa7ih2"
+
+[node name="SCmdPushShortcutToStaticSingleton" type="Node" parent="GOMI/Code/Command Line/Actioneer Of Cmd Interpreters/Interpreter/To Relay Shortcut to the actioneer" unique_id=1621142918]
+script = ExtResource("4_dewju")
+metadata/_custom_type_script = "uid://briys5vafrqt"
+
+[node name="To Do" type="Node" parent="GOMI/Code/Command Line/Actioneer Of Cmd Interpreters/Interpreter" unique_id=224863898]
+
+[node name="JOMI" type="Node" parent="GOMI/Code/Command Line/Actioneer Of Cmd Interpreters/Interpreter/To Do" unique_id=99240439]
+script = ExtResource("2_585k0")
+_note = "https://github.com/EloiStree/2021_12_14_omi_config_examples/blob/main/lol.stringtocommands
+
+https://github.com/eloistree/jomi"
+metadata/_custom_type_script = "uid://d3bq1wmbyp1v4"
+
+[node name="Shortcut" type="Node" parent="GOMI/Code" unique_id=2045222757]
+
+[node name="Pusher" type="Node" parent="GOMI/Code/Shortcut" unique_id=1760458480]
+
+[node name="Push Shortcut To Static Listener" type="Node" parent="GOMI/Code/Shortcut/Pusher" unique_id=106257740]
+script = ExtResource("4_dewju")
+metadata/_custom_type_script = "uid://briys5vafrqt"
+
+[node name="Listener" type="Node" parent="GOMI/Code/Shortcut" unique_id=964221474]
+
+[node name="Listen to Static Pushed Shortcut" type="Node" parent="GOMI/Code/Shortcut/Listener" unique_id=1643832822]
+script = ExtResource("8_0c26a")
+metadata/_custom_type_script = "uid://dcshwh1n4qspt"
+
+[node name="Pre Parse Shortcut and delay it" type="Node" parent="GOMI/Code/Shortcut" unique_id=2044940162]
+
+[node name="Duplicate Text inside Brackets" type="Node" parent="GOMI/Code/Shortcut/Pre Parse Shortcut and delay it" unique_id=1797395027]
+script = ExtResource("1_cubx4")
+metadata/_custom_type_script = "uid://dnh35s7ldvx7"
+
+[node name="Replace Shortcut with User Alias" type="Node" parent="GOMI/Code/Shortcut/Pre Parse Shortcut and delay it" unique_id=502396782]
+script = ExtResource("7_2vkrb")
+
+[node name="Delay Shortcut Received" type="Node" parent="GOMI/Code/Shortcut/Pre Parse Shortcut and delay it" unique_id=1688279185 node_paths=PackedStringArray("_text_delayer")]
+script = ExtResource("2_glqed")
+_text_delayer = NodePath("Delay Text Received")
+metadata/_custom_type_script = "uid://bvf5c2pm8wf0y"
+
+[node name="Delay Text Received" type="Node" parent="GOMI/Code/Shortcut/Pre Parse Shortcut and delay it/Delay Shortcut Received" unique_id=148141855]
+script = ExtResource("3_glqed")
+metadata/_custom_type_script = "uid://cku7rckwwwh4i"
+
+[node name="Auctioneer of Sc Interpeters" type="Node" parent="GOMI/Code/Shortcut" unique_id=2117007684 node_paths=PackedStringArray("_interpreter_bidders")]
+script = ExtResource("2_1gxwg")
+_interpreter_bidders = [NodePath("Interpreters To Use/To Deal with Integer Action"), NodePath("Interpreters To Use/To Send Text Byte In Out"), NodePath("Interpreters To Use/To Handle Midi Out request"), NodePath("Interpreters To Use/To Save And Load Clipboard as variable"), NodePath("Interpreters To Use/To ignore Waiting shortcut 1000>"), NodePath("Interpreters To Use/To Send Text Byte In Out")]
+metadata/_custom_type_script = "uid://b2ny4vub2sgib"
+
+[node name="Interpreters To Use" type="Node" parent="GOMI/Code/Shortcut/Auctioneer of Sc Interpeters" unique_id=289497450]
+
+[node name="To Open Url" type="Node" parent="GOMI/Code/Shortcut/Auctioneer of Sc Interpeters/Interpreters To Use" unique_id=371847025]
+script = ExtResource("34_kci41")
+
+[node name="To Deal with Integer Action" type="Node" parent="GOMI/Code/Shortcut/Auctioneer of Sc Interpeters/Interpreters To Use" unique_id=238685304]
+script = ExtResource("35_hp8ja")
+
+[node name="To ignore Waiting shortcut 1000>" type="Node" parent="GOMI/Code/Shortcut/Auctioneer of Sc Interpeters/Interpreters To Use" unique_id=1545822692]
+script = ExtResource("36_xrwyb")
+
+[node name="To Handle Midi Out request" type="Node" parent="GOMI/Code/Shortcut/Auctioneer of Sc Interpeters/Interpreters To Use" unique_id=784872356]
+script = ExtResource("37_68an0")
+metadata/_custom_type_script = "uid://0ebuvi8k7fbd"
+
+[node name="Send To Local Host" type="Node" parent="GOMI/Code/Shortcut/Auctioneer of Sc Interpeters/Interpreters To Use/To Handle Midi Out request" unique_id=265487748]
+script = ExtResource("38_hp8ja")
+metadata/_custom_type_script = "uid://bnh4ggp3el6ai"
+
+[node name="To Save And Load Clipboard as variable" type="Node" parent="GOMI/Code/Shortcut/Auctioneer of Sc Interpeters/Interpreters To Use" unique_id=621184770]
+script = ExtResource("38_1xswp")
+
+[node name="Default Clipboard Save Load Code" type="Node" parent="GOMI/Code/Shortcut/Auctioneer of Sc Interpeters/Interpreters To Use/To Save And Load Clipboard as variable" unique_id=1821070854]
+script = ExtResource("40_xrwyb")
+metadata/_custom_type_script = "uid://bcgdlgdpkc1wp"
+
+[node name="To Send Text Byte In Out" type="Node" parent="GOMI/Code/Shortcut/Auctioneer of Sc Interpeters/Interpreters To Use" unique_id=2099038635]
+script = ExtResource("39_m1p13")
+metadata/_custom_type_script = "uid://bmx4ne8gcmd62"
+
+[node name="To Do" type="Node" parent="GOMI/Code/Shortcut/Auctioneer of Sc Interpeters/Interpreters To Use" unique_id=1057255302]
+
+[node name="To Doing" type="Node" parent="GOMI/Code/Shortcut/Auctioneer of Sc Interpeters/Interpreters To Use" unique_id=1496117931]
+
+[node name="To Done" type="Node" parent="GOMI/Code/Shortcut/Auctioneer of Sc Interpeters/Interpreters To Use" unique_id=342364590]
 
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=466819778]
 
 [node name="GOMI TAB" type="TabContainer" parent="CanvasLayer" unique_id=199680806]
-anchors_preset = 15
+anchors_preset = -1
 anchor_right = 1.0
-anchor_bottom = 1.0
+anchor_bottom = 0.9472656
 grow_horizontal = 2
 grow_vertical = 2
 current_tab = 0
+metadata/_edit_use_anchors_ = true
 
 [node name="VBox Input" type="Panel" parent="CanvasLayer/GOMI TAB" unique_id=1151134158]
 layout_mode = 2
@@ -233,7 +398,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-current_tab = 10
+current_tab = 11
 
 [node name="MIDI" parent="CanvasLayer/GOMI TAB/VBox Input/TabContainer" unique_id=1257018321 instance=ExtResource("9_bvtn2")]
 visible = false
@@ -249,6 +414,12 @@ metadata/_tab_index = 1
 visible = false
 layout_mode = 2
 metadata/_tab_index = 2
+
+[node name="InputNfcTextToTextDirect" parent="CanvasLayer/GOMI TAB/VBox Input/TabContainer/NFC/Node" parent_id_path=PackedInt32Array(57509181, 2131666749) index="0" unique_id=1430774721]
+text_to_scene_name_dico = Dictionary[String, String]({})
+
+[node name="InputNfcTextToTextSubmit" parent="CanvasLayer/GOMI TAB/VBox Input/TabContainer/NFC/Node" parent_id_path=PackedInt32Array(57509181, 2131666749) index="1" unique_id=1513894270]
+text_to_scene_name_dico = Dictionary[String, String]({})
 
 [node name="Key Log" parent="CanvasLayer/GOMI TAB/VBox Input/TabContainer" unique_id=965093910 instance=ExtResource("14_jtqnq")]
 visible = false
@@ -286,6 +457,7 @@ layout_mode = 2
 metadata/_tab_index = 9
 
 [node name="UI Emit" parent="CanvasLayer/GOMI TAB/VBox Input/TabContainer" unique_id=1318290114 instance=ExtResource("32_y7hht")]
+visible = false
 layout_mode = 2
 metadata/_tab_index = 10
 
@@ -318,6 +490,10 @@ _current_value = null
 _previous_value = null
 _debug_formatted_text = null
 _last_change_as_debug_text = null
+
+[node name="KeyboardInput" parent="CanvasLayer/GOMI TAB/VBox Input/TabContainer" unique_id=1833133360 instance=ExtResource("43_rgn43")]
+layout_mode = 2
+metadata/_tab_index = 11
 
 [node name="Interpretor" type="Panel" parent="CanvasLayer/GOMI TAB" unique_id=1256017668]
 visible = false
@@ -430,26 +606,92 @@ metadata/_custom_type_script = "uid://dnh35s7ldvx7"
 custom_minimum_size = Vector2(0, 80)
 layout_mode = 2
 
-[connection signal="on_finish_to_download_and_fuse" from="GOMI/File/Sleepy/FileConfigDownloadAndFuseUrl" to="GOMI/File/Sleepy/FileConfigDownloadAndFuseUrl/OmiFileParseTextToScAlias" method="push_in_text_to_parse"]
-[connection signal="on_parsed_alias_for_shortcut_one_by_one" from="GOMI/File/Sleepy/FileConfigDownloadAndFuseUrl/OmiFileParseTextToScAlias" to="GOMI/Code/Shortcut/Process Round Bracket/ScmdParserReplaceShortcutWordFromAlias" method="set_alias_to_value"]
-[connection signal="on_shortcut_to_interpret" from="GOMI/Code/Shortcut/Listener/Listen to Push Shortcut" to="GOMI/Code/Shortcut/Process Round Bracket" method="parse_text_then_emit"]
-[connection signal="on_parsed_text_emitted" from="GOMI/Code/Shortcut/Process Round Bracket" to="GOMI/Code/Shortcut/Process Round Bracket/ScmdParserReplaceShortcutWordFromAlias" method="push_in_to_replace_shortcut_word_from_alias"]
-[connection signal="on_parsed_text_with_replace_alias" from="GOMI/Code/Shortcut/Process Round Bracket/ScmdParserReplaceShortcutWordFromAlias" to="GOMI/Code/Shortcut/Process Round Bracket/ScmdParserReplaceShortcutWordFromAlias/Shortcut Word Delayer" method="push_in_text_to_split_and_delay"]
-[connection signal="on_word_ready_to_be_interpreted" from="GOMI/Code/Shortcut/Process Round Bracket/ScmdParserReplaceShortcutWordFromAlias/Shortcut Word Delayer" to="GOMI/Code/Shortcut/SCmdShortcutWordAuctioneer" method="push_in_shortcut_text"]
-[connection signal="on_midi_channel_note_velocity_found" from="GOMI/Code/Shortcut/SCmdShortcutWordAuctioneer/Interpreters/Midi UDP Out" to="GOMI/Code/Shortcut/SCmdShortcutWordAuctioneer/Interpreters/Midi UDP Out/Midi Udp Localhost" method="send_channel_note_velocity_to_localhost"]
-[connection signal="on_midi_controller_velocity_found" from="GOMI/Code/Shortcut/SCmdShortcutWordAuctioneer/Interpreters/Midi UDP Out" to="GOMI/Code/Shortcut/SCmdShortcutWordAuctioneer/Interpreters/Midi UDP Out/Midi Udp Localhost" method="send_controller_velocity_to_localhost"]
-[connection signal="on_midi_note_velocity_found" from="GOMI/Code/Shortcut/SCmdShortcutWordAuctioneer/Interpreters/Midi UDP Out" to="GOMI/Code/Shortcut/SCmdShortcutWordAuctioneer/Interpreters/Midi UDP Out/Midi Udp Localhost" method="send_channel_note_velocity_to_localhost"]
-[connection signal="on_request_to_load_clipboard_from_file_with_key" from="GOMI/Code/Shortcut/SCmdShortcutWordAuctioneer/Interpreters/Save And Load Clipboard" to="GOMI/Code/Shortcut/SCmdShortcutWordAuctioneer/Interpreters/Save And Load Clipboard/Clipboard Storage" method="load_from_file_clipboard_from_key"]
-[connection signal="on_request_to_load_clipboard_from_ram_with_key" from="GOMI/Code/Shortcut/SCmdShortcutWordAuctioneer/Interpreters/Save And Load Clipboard" to="GOMI/Code/Shortcut/SCmdShortcutWordAuctioneer/Interpreters/Save And Load Clipboard/Clipboard Storage" method="load_from_ram_clipboard_from_key"]
-[connection signal="on_request_to_save_clipboard_to_file_with_key" from="GOMI/Code/Shortcut/SCmdShortcutWordAuctioneer/Interpreters/Save And Load Clipboard" to="GOMI/Code/Shortcut/SCmdShortcutWordAuctioneer/Interpreters/Save And Load Clipboard/Clipboard Storage" method="save_in_file_clipboard_with_key"]
-[connection signal="on_request_to_save_clipboard_to_ram_with_key" from="GOMI/Code/Shortcut/SCmdShortcutWordAuctioneer/Interpreters/Save And Load Clipboard" to="GOMI/Code/Shortcut/SCmdShortcutWordAuctioneer/Interpreters/Save And Load Clipboard/Clipboard Storage" method="save_in_ram_clipboard_with_key"]
-[connection signal="on_index_value_integer_found_for_alias" from="GOMI/Code/Shortcut/SCmdShortcutWordAuctioneer/Interpreters/To Doing/TBIO ~>" to="GOMI/Code/Push Out Package/Udp Alias Pusher" method="send_integer_index_to_alias"]
-[connection signal="on_integer_found_for_alias" from="GOMI/Code/Shortcut/SCmdShortcutWordAuctioneer/Interpreters/To Doing/TBIO ~>" to="GOMI/Code/Push Out Package/Udp Alias Pusher" method="send_integer_to_alias"]
-[connection signal="on_integer_found_for_all" from="GOMI/Code/Shortcut/SCmdShortcutWordAuctioneer/Interpreters/To Doing/TBIO ~>" to="GOMI/Code/Push Out Package/Udp Alias Pusher" method="send_integer_to_all"]
-[connection signal="on_request_to_send_small_text_to_alias" from="GOMI/Code/Shortcut/SCmdShortcutWordAuctioneer/Interpreters/To Doing/TBIO ~>" to="GOMI/Code/Push Out Package/Udp Alias Pusher" method="send_text_to_alias"]
-[connection signal="on_nfc_builder_code_changed" from="CanvasLayer/GOMI TAB/VBox Input/TabContainer/NFC/InputNfcListener" to="GOMI/Code/Nfc And Log/Key Log/Text Equals By" method="emit_if_equals_text_equals_to_one_key"]
-[connection signal="on_string_builder_changed" from="CanvasLayer/GOMI TAB/VBox Input/TabContainer/Key Log/InputKeyboardLocalUnicodeTypingLogger" to="GOMI/Code/Nfc And Log/Key Log/Text Finish By" method="emit_if_finishing_by_a_key"]
-[connection signal="on_submit_button_pressed" from="CanvasLayer/GOMI TAB/Interpretor/TabContainer/Demo2dInterpreterScCmd/VBoxContainer/Button/SCmdUiSubmitLineEdit" to="GOMI/Code/Shortcut/Process Round Bracket" method="parse_text_then_emit"]
+[node name="HBoxContainer" type="HBoxContainer" parent="CanvasLayer" unique_id=1693475444]
+anchors_preset = -1
+anchor_top = 0.95600003
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 9.0
+offset_top = -2.9440308
+offset_right = -6.0
+offset_bottom = -3.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label CMD" type="Label" parent="CanvasLayer/HBoxContainer" unique_id=149140001]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 1
+text = "-"
+
+[node name="Label SC" type="Label" parent="CanvasLayer/HBoxContainer" unique_id=1149779098]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 1
+text = "-"
+
+[node name="Label SC2" type="Label" parent="CanvasLayer/HBoxContainer" unique_id=2133698953]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 1
+text = "-"
+
+[node name="ButtonResOsDirectory" parent="CanvasLayer/HBoxContainer" unique_id=64828556 instance=ExtResource("45_has3g")]
+layout_mode = 2
+
+[node name="ButtonUserOsDirectory" parent="CanvasLayer/HBoxContainer" unique_id=509732401 instance=ExtResource("46_2018l")]
+layout_mode = 2
+
+[node name="CodeEdit" type="CodeEdit" parent="CanvasLayer" unique_id=477462115]
+offset_left = 1098.0
+offset_top = 551.0
+offset_right = 1848.0
+offset_bottom = 810.0
+text = "ewrsdaf"
+
+[connection signal="on_any_unicode_char_found" from="GOMI/Code/Input/KEYBOARD/As Unicode Typed/InputListenToKeyboardUnicodeAsString" to="GOMI/Code/Input/KEYBOARD/As Unicode Typed/InputListenToKeyboardUnicodeAsString/Unicode Char To Actions" method="try_to_emit_store_text_from_key"]
+[connection signal="on_text_value_found" from="GOMI/Code/Input/KEYBOARD/As Unicode Typed/InputListenToKeyboardUnicodeAsString/Unicode Char To Actions" to="GOMI/Code/Input/KEYBOARD/As Unicode Typed/InputListenToKeyboardUnicodeAsString/Unicode Char To Actions/Push Cmd to Singleton" method="push_command_line_to_static_singleton"]
+[connection signal="on_any_unicode_integer_as_string_found" from="GOMI/Code/Input/KEYBOARD/As Unicode Typed/InputListenToKeyboardUnicodeAsInteger" to="GOMI/Code/Input/KEYBOARD/As Unicode Typed/InputListenToKeyboardUnicodeAsInteger/Integer Char To Actions" method="try_to_emit_store_text_from_key"]
+[connection signal="on_text_value_found" from="GOMI/Code/Input/KEYBOARD/As Unicode Typed/InputListenToKeyboardUnicodeAsInteger/Integer Char To Actions" to="GOMI/Code/Input/KEYBOARD/As Unicode Typed/InputListenToKeyboardUnicodeAsInteger/Integer Char To Actions/Push Cmd to Singleton" method="push_command_line_to_static_singleton"]
+[connection signal="on_event_key_stroke_label_without_modifiers" from="GOMI/Code/Input/KEYBOARD/As Keyboard Typed/Input Listen To Keyboard" to="GOMI/Code/Input/KEYBOARD/As Keyboard Typed/Input Listen To Keyboard/Keyboard Down Up To Actions" method="try_to_emit_store_text_from_key_condition"]
+[connection signal="on_text_value_found" from="GOMI/Code/Input/KEYBOARD/As Keyboard Typed/Input Listen To Keyboard/Keyboard Down Up To Actions" to="GOMI/Code/Input/KEYBOARD/As Keyboard Typed/Input Listen To Keyboard/Keyboard Down Up To Actions/Push Cmd to Singleton" method="push_command_line_to_static_singleton"]
+[connection signal="on_fusion_complete" from="GOMI/Code/File/LoadFileFromFolder" to="GOMI/Code/File/LoadFileFromFolder/Filter Text As Files" method="clear_dictionary_and_filter_files_from_text"]
+[connection signal="on_file_fused_by_extension_name" from="GOMI/Code/File/LoadFileFromFolder/Filter Text As Files" to="GOMI/Code/File/LoadFileFromFolder/Filter Text As Files/FileConfigRedirectionByNameRelayBroadcaster" method="push_file_content_by_extension_name"]
+[connection signal="on_content_found_to_redirect" from="GOMI/Code/File/LoadFileFromFolder/Filter Text As Files/FileConfigRedirectionByNameRelayBroadcaster/_godot_keyboard_to_cmd" to="GOMI/Code/File/LoadFileFromFolder/Filter Text As Files/FileConfigRedirectionByNameRelayBroadcaster/_godot_keyboard_to_cmd/OmiFileTextToGodotKeyboardToCmd" method="push_in_text_to_parse"]
+[connection signal="on_content_found_to_redirect" from="GOMI/Code/File/LoadFileFromFolder/Filter Text As Files/FileConfigRedirectionByNameRelayBroadcaster/_godot_keyboard_to_cmd" to="CanvasLayer/CodeEdit" method="set_text"]
+[connection signal="on_keyboard_key_enter_trigger_found" from="GOMI/Code/File/LoadFileFromFolder/Filter Text As Files/FileConfigRedirectionByNameRelayBroadcaster/_godot_keyboard_to_cmd/OmiFileTextToGodotKeyboardToCmd" to="GOMI/Code/Input/KEYBOARD/As Keyboard Typed/Input Listen To Keyboard/Keyboard Down Up To Actions" method="append_key_value_to_enter_trigger"]
+[connection signal="on_keyboard_key_exit_trigger_found" from="GOMI/Code/File/LoadFileFromFolder/Filter Text As Files/FileConfigRedirectionByNameRelayBroadcaster/_godot_keyboard_to_cmd/OmiFileTextToGodotKeyboardToCmd" to="GOMI/Code/Input/KEYBOARD/As Keyboard Typed/Input Listen To Keyboard/Keyboard Down Up To Actions" method="append_key_value_to_exit_trigger"]
+[connection signal="on_unicode_char_trigger_found" from="GOMI/Code/File/LoadFileFromFolder/Filter Text As Files/FileConfigRedirectionByNameRelayBroadcaster/_godot_keyboard_to_cmd/OmiFileTextToGodotKeyboardToCmd" to="GOMI/Code/Input/KEYBOARD/As Unicode Typed/InputListenToKeyboardUnicodeAsString/Unicode Char To Actions" method="append_key_value"]
+[connection signal="on_unicode_integer_as_string_trigger_found" from="GOMI/Code/File/LoadFileFromFolder/Filter Text As Files/FileConfigRedirectionByNameRelayBroadcaster/_godot_keyboard_to_cmd/OmiFileTextToGodotKeyboardToCmd" to="GOMI/Code/Input/KEYBOARD/As Unicode Typed/InputListenToKeyboardUnicodeAsInteger/Integer Char To Actions" method="append_key_value"]
+[connection signal="on_content_found_to_redirect" from="GOMI/Code/File/LoadFileFromFolder/Filter Text As Files/FileConfigRedirectionByNameRelayBroadcaster/_sc_alias" to="GOMI/Code/File/LoadFileFromFolder/Filter Text As Files/FileConfigRedirectionByNameRelayBroadcaster/_sc_alias/OmiFileParseTextToScAlias" method="push_in_text_to_parse"]
+[connection signal="on_parsed_alias_for_shortcut_one_by_one" from="GOMI/Code/File/LoadFileFromFolder/Filter Text As Files/FileConfigRedirectionByNameRelayBroadcaster/_sc_alias/OmiFileParseTextToScAlias" to="GOMI/Code/Shortcut/Pre Parse Shortcut and delay it/Replace Shortcut with User Alias" method="set_alias_to_value"]
+[connection signal="on_command_line_to_interpret" from="GOMI/Code/Command Line/Listener/Listen to Commands Line Request" to="GOMI/Code/Command Line/Actioneer Of Cmd Interpreters" method="push_in_command_line_text"]
+[connection signal="on_command_start_processing" from="GOMI/Code/Command Line/Actioneer Of Cmd Interpreters" to="CanvasLayer/HBoxContainer/Label CMD" method="set_text"]
+[connection signal="on_command_line_to_delay_found" from="GOMI/Code/Command Line/Actioneer Of Cmd Interpreters/Interpreter/To Delay command with time" to="GOMI/Code/Command Line/Actioneer Of Cmd Interpreters/Interpreter/To Delay command with time/As simple Text Delayer" method="append_text_to_be_delayed_of_milliseconds"]
+[connection signal="on_text_ready_to_be_relayed" from="GOMI/Code/Command Line/Actioneer Of Cmd Interpreters/Interpreter/To Delay command with time/As simple Text Delayer" to="GOMI/Code/Command Line/Actioneer Of Cmd Interpreters" method="push_in_command_line_text"]
+[connection signal="on_shortcut_line_to_interpret_found" from="GOMI/Code/Command Line/Actioneer Of Cmd Interpreters/Interpreter/To Relay Shortcut to the actioneer" to="GOMI/Code/Command Line/Actioneer Of Cmd Interpreters/Interpreter/To Relay Shortcut to the actioneer/SCmdPushShortcutToStaticSingleton" method="push_shortcut_to_static_singleton"]
+[connection signal="on_shortcut_to_interpret" from="GOMI/Code/Shortcut/Listener/Listen to Static Pushed Shortcut" to="GOMI/Code/Shortcut/Pre Parse Shortcut and delay it/Duplicate Text inside Brackets" method="parse_text_then_emit"]
+[connection signal="on_parsed_text_emitted" from="GOMI/Code/Shortcut/Pre Parse Shortcut and delay it/Duplicate Text inside Brackets" to="GOMI/Code/Shortcut/Pre Parse Shortcut and delay it/Replace Shortcut with User Alias" method="push_in_to_replace_shortcut_word_from_alias"]
+[connection signal="on_parsed_text_with_replace_alias" from="GOMI/Code/Shortcut/Pre Parse Shortcut and delay it/Replace Shortcut with User Alias" to="GOMI/Code/Shortcut/Pre Parse Shortcut and delay it/Delay Shortcut Received" method="push_in_text_to_split_and_delay"]
+[connection signal="on_word_ready_to_be_interpreted" from="GOMI/Code/Shortcut/Pre Parse Shortcut and delay it/Delay Shortcut Received" to="GOMI/Code/Shortcut/Auctioneer of Sc Interpeters" method="push_in_shortcut_text"]
+[connection signal="on_last_text_received" from="GOMI/Code/Shortcut/Auctioneer of Sc Interpeters" to="CanvasLayer/HBoxContainer/Label SC" method="set_text"]
+[connection signal="on_last_word_processed" from="GOMI/Code/Shortcut/Auctioneer of Sc Interpeters" to="CanvasLayer/HBoxContainer/Label SC2" method="set_text"]
+[connection signal="on_integer_found" from="GOMI/Code/Shortcut/Auctioneer of Sc Interpeters/Interpreters To Use/To Deal with Integer Action" to="GOMI/Code/TBIO Out/Udp Alias Pusher" method="send_integer_to_all"]
+[connection signal="on_midi_channel_note_velocity_found" from="GOMI/Code/Shortcut/Auctioneer of Sc Interpeters/Interpreters To Use/To Handle Midi Out request" to="GOMI/Code/Shortcut/Auctioneer of Sc Interpeters/Interpreters To Use/To Handle Midi Out request/Send To Local Host" method="send_channel_note_velocity_to_localhost"]
+[connection signal="on_midi_controller_velocity_found" from="GOMI/Code/Shortcut/Auctioneer of Sc Interpeters/Interpreters To Use/To Handle Midi Out request" to="GOMI/Code/Shortcut/Auctioneer of Sc Interpeters/Interpreters To Use/To Handle Midi Out request/Send To Local Host" method="send_controller_velocity_to_localhost"]
+[connection signal="on_midi_note_velocity_found" from="GOMI/Code/Shortcut/Auctioneer of Sc Interpeters/Interpreters To Use/To Handle Midi Out request" to="GOMI/Code/Shortcut/Auctioneer of Sc Interpeters/Interpreters To Use/To Handle Midi Out request/Send To Local Host" method="send_channel_note_velocity_to_localhost"]
+[connection signal="on_request_to_load_clipboard_from_file_with_key" from="GOMI/Code/Shortcut/Auctioneer of Sc Interpeters/Interpreters To Use/To Save And Load Clipboard as variable" to="GOMI/Code/Shortcut/Auctioneer of Sc Interpeters/Interpreters To Use/To Save And Load Clipboard as variable/Default Clipboard Save Load Code" method="load_from_file_clipboard_from_key"]
+[connection signal="on_request_to_load_clipboard_from_ram_with_key" from="GOMI/Code/Shortcut/Auctioneer of Sc Interpeters/Interpreters To Use/To Save And Load Clipboard as variable" to="GOMI/Code/Shortcut/Auctioneer of Sc Interpeters/Interpreters To Use/To Save And Load Clipboard as variable/Default Clipboard Save Load Code" method="load_from_ram_clipboard_from_key"]
+[connection signal="on_request_to_save_clipboard_to_file_with_key" from="GOMI/Code/Shortcut/Auctioneer of Sc Interpeters/Interpreters To Use/To Save And Load Clipboard as variable" to="GOMI/Code/Shortcut/Auctioneer of Sc Interpeters/Interpreters To Use/To Save And Load Clipboard as variable/Default Clipboard Save Load Code" method="save_in_file_clipboard_with_key"]
+[connection signal="on_request_to_save_clipboard_to_ram_with_key" from="GOMI/Code/Shortcut/Auctioneer of Sc Interpeters/Interpreters To Use/To Save And Load Clipboard as variable" to="GOMI/Code/Shortcut/Auctioneer of Sc Interpeters/Interpreters To Use/To Save And Load Clipboard as variable/Default Clipboard Save Load Code" method="save_in_ram_clipboard_with_key"]
+[connection signal="on_index_integer_found_for_all" from="GOMI/Code/Shortcut/Auctioneer of Sc Interpeters/Interpreters To Use/To Send Text Byte In Out" to="GOMI/Code/TBIO Out/Udp Alias Pusher" method="send_integer_index_to_all"]
+[connection signal="on_index_value_integer_found_for_alias" from="GOMI/Code/Shortcut/Auctioneer of Sc Interpeters/Interpreters To Use/To Send Text Byte In Out" to="GOMI/Code/TBIO Out/Udp Alias Pusher" method="send_integer_index_to_alias"]
+[connection signal="on_integer_found_for_alias" from="GOMI/Code/Shortcut/Auctioneer of Sc Interpeters/Interpreters To Use/To Send Text Byte In Out" to="GOMI/Code/TBIO Out/Udp Alias Pusher" method="send_integer_to_alias"]
+[connection signal="on_integer_found_for_all" from="GOMI/Code/Shortcut/Auctioneer of Sc Interpeters/Interpreters To Use/To Send Text Byte In Out" to="GOMI/Code/TBIO Out/Udp Alias Pusher" method="send_integer_to_all"]
+[connection signal="on_request_to_send_small_text_to_alias" from="GOMI/Code/Shortcut/Auctioneer of Sc Interpeters/Interpreters To Use/To Send Text Byte In Out" to="GOMI/Code/TBIO Out/Udp Alias Pusher" method="send_text_to_alias"]
+[connection signal="on_nfc_builder_code_changed" from="CanvasLayer/GOMI TAB/VBox Input/TabContainer/NFC/InputNfcListener" to="GOMI/Code/Input/LOG/Key Log/Text Equals By" method="emit_if_equals_text_equals_to_one_key"]
+[connection signal="on_string_builder_changed" from="CanvasLayer/GOMI TAB/VBox Input/TabContainer/Key Log/InputKeyboardLocalUnicodeTypingLogger" to="GOMI/Code/Input/LOG/Key Log/Text Finish By" method="emit_if_finishing_by_a_key"]
+[connection signal="on_submit_button_pressed" from="CanvasLayer/GOMI TAB/Interpretor/TabContainer/Demo2dInterpreterScCmd/VBoxContainer/Button/SCmdUiSubmitLineEdit" to="GOMI/Code/Shortcut/Pre Parse Shortcut and delay it/Duplicate Text inside Brackets" method="parse_text_then_emit"]
 [connection signal="on_submit_button_pressed" from="CanvasLayer/GOMI TAB/Shortcut Edit/VBoxContainer/Button/SCmdUiSubmitTextEdit" to="CanvasLayer/GOMI TAB/Shortcut Edit/VBoxContainer/Code/SCmdDuplicateBracketsInText" method="parse_text_then_emit"]
 [connection signal="on_parsed_text_emitted" from="CanvasLayer/GOMI TAB/Shortcut Edit/VBoxContainer/Code/SCmdDuplicateBracketsInText" to="CanvasLayer/GOMI TAB/Shortcut Edit/VBoxContainer/TextEdit" method="set_text"]
 
@@ -462,6 +704,8 @@ layout_mode = 2
 [editable path="CanvasLayer/GOMI TAB/VBox Input/TabContainer/TV Remote"]
 [editable path="CanvasLayer/GOMI TAB/VBox Input/TabContainer/Copy Past"]
 [editable path="CanvasLayer/GOMI TAB/VBox Input/TabContainer/Mouse Area"]
+[editable path="CanvasLayer/GOMI TAB/VBox Input/TabContainer/Grid"]
 [editable path="CanvasLayer/GOMI TAB/VBox Input/TabContainer/UI Emit"]
+[editable path="CanvasLayer/GOMI TAB/VBox Input/TabContainer/KeyboardInput"]
 [editable path="CanvasLayer/GOMI TAB/Delay Text/Delay Text Window"]
 [editable path="CanvasLayer/GOMI TAB/Delay Text/Delay Text Window/Panel Relay Text"]

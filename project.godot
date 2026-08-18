@@ -16,7 +16,7 @@ general/accessibility_support=2
 
 config/name="GOMI"
 config/description="Godot Open Macro Input is a file-configurable input remapping tool with some Godot modding capabilities."
-run/main_scene="uid://dhe3aquetluij"
+run/main_scene="uid://bh8bkvvuka3ng"
 config/quit_on_go_back=false
 config/features=PackedStringArray("4.7", "GL Compatibility")
 boot_splash/image="uid://b23vv6snlv3hx"
@@ -31,8 +31,8 @@ driver/enable_input=true
 
 [display]
 
-window/size/viewport_width=1920
-window/size/viewport_height=1024
+window/size/viewport_width=960
+window/size/viewport_height=512
 window/stretch/mode="canvas_items"
 window/stretch/aspect="expand"
 
