@@ -34,5 +34,3 @@ Generated input packages should also be compatible with devices such as the Meta
 
 Any functionality that requires native platform APIs or external DLLs should be implemented through open-source Python scripts for the community to be sure of not be hacked.     
 These scripts will handle platform-specific communication and inject the resulting values into GOMI, keeping the core project portable and transparent.   
-
-If this is intended as a GitHub README, I can also format it with installation instructions, architecture diagrams, and a development roadmap.   
