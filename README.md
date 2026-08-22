@@ -7,7 +7,7 @@ Last Stable Build: https://eloistree.itch.io/gomi
 Last Developer Build: https://github.com/EloiStree/GOMI/releases     
 
 Note: GOMI is an app but also a 2D Canvas in Godot if you are in XR and want to use it:  
-Contact me if you want to test for now.   
+Contact me if you want to test that for now.   
 
    
 # GOMI
