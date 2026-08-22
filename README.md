@@ -3,7 +3,9 @@ git clone --recursive https://github.com/EloiStree/GOMI.git
 cd GOMI
 git submodule foreach 'git switch main'
 ```
-
+Last Stable Build: https://eloistree.itch.io/gomi   
+Last Developer Build: https://github.com/EloiStree/GOMI/releases   
+   
 # GOMI
 
 **Godot Open Macro Input (GOMI)** is a system that converts input from any supported device into Godot-compatible Integer IIDs and Byte/Text packages.
