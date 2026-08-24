@@ -76,3 +76,9 @@
 [submodule "addons/2026_08_23_gdp_text_to_gdscript_trigger"]
 	path = addons/2026_08_23_gdp_text_to_gdscript_trigger
 	url = https://github.com/EloiStree/2026_08_23_gdp_text_to_gdscript_trigger.git
+[submodule "addons/2026_08_24_gdp_import_text_to_run_from_folder"]
+	path = addons/2026_08_24_gdp_import_text_to_run_from_folder
+	url = https://github.com/EloiStree/2026_08_24_gdp_import_text_to_run_from_folder.git
+[submodule "addons/2026_08_24_gdp_launch_python_on_platform"]
+	path = addons/2026_08_24_gdp_launch_python_on_platform
+	url = https://github.com/EloiStree/2026_08_24_gdp_launch_python_on_platform.git
