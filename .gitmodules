@@ -85,3 +85,6 @@
 [submodule "addons/2026_08_26_gdp_midi_params_to_command"]
 	path = addons/2026_08_26_gdp_midi_params_to_command
 	url = https://github.com/EloiStree/2026_08_26_gdp_midi_params_to_command.git
+[submodule "addons/2026_08_27_gdp_bool_analog_dictionary"]
+	path = addons/2026_08_27_gdp_bool_analog_dictionary
+	url = https://github.com/EloiStree/2026_08_27_gdp_bool_analog_dictionary.git
