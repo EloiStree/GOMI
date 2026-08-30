@@ -9,6 +9,11 @@ Last Developer Build: https://github.com/EloiStree/GOMI/releases
 Note: GOMI is an app but also a 2D Canvas in Godot if you are in XR and want to use it:  
 Contact me if you want to test that for now.   
 
+
+**Documentation:**   
+- Video: https://www.youtube.com/@GOMI_DOC
+- Text: https://github.com/EloiStree/GOMI_DOC
+
    
 # GOMI
 
