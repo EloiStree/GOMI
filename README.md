@@ -12,6 +12,8 @@ Contact me if you want to test that for now.
    
 # GOMI
 
+<img width="963" height="583" alt="image" src="https://github.com/user-attachments/assets/6485022d-6a17-4f1e-be78-ac0eab9c5071" />
+
 **Godot Open Macro Input (GOMI)** is a system that converts input from any supported device into Godot-compatible Integer IIDs and Byte/Text packages.
 
 **Related concepts:** OMI, XOMI, S2W, IID, and TBIO.
