@@ -9,8 +9,15 @@ Last Developer Build: https://github.com/EloiStree/GOMI/releases
 Note: GOMI is an app but also a 2D Canvas in Godot if you are in XR and want to use it:  
 Contact me if you want to test that for now.   
 
+
+**Documentation:**   
+- Video: https://www.youtube.com/@GOMI_DOC
+- Text: https://github.com/EloiStree/GOMI_DOC
+
    
 # GOMI
+
+<img width="963" height="583" alt="image" src="https://github.com/user-attachments/assets/6485022d-6a17-4f1e-be78-ac0eab9c5071" />
 
 **Godot Open Macro Input (GOMI)** is a system that converts input from any supported device into Godot-compatible Integer IIDs and Byte/Text packages.
 
