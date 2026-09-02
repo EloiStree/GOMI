@@ -1,7 +1,7 @@
 ```
 git clone --recursive https://github.com/EloiStree/GOMI.git
 cd GOMI
-git submodule foreach 'git switch main'
+git submodule foreach "git switch main"
 ``` 
 Last Stable Build: https://eloistree.itch.io/gomi     
 Last Developer Build: https://github.com/EloiStree/GOMI/releases     
