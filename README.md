@@ -3,7 +3,7 @@ git clone --recursive https://github.com/EloiStree/GOMI.git
 cd GOMI
 git submodule foreach "git switch main"
 ``` 
-Last Stable Build: https://eloistree.itch.io/gomi     
+Last Stable Build: ~https://eloistree.itch.io/gomi~     
 Last Developer Build: https://github.com/EloiStree/GOMI/releases     
 
 Note: GOMI is an app but also a 2D Canvas in Godot if you are in XR and want to use it:  
